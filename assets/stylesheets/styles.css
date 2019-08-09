@@ -1,0 +1,206 @@
+body {
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: rgb(244, 245, 246);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+/*BEGIN NAVIGATION BAR STYLING*/
+header {
+    background: #f0220f;
+}
+
+.main-nav {
+    background-color: white;
+    display: flex;
+    height: 46px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+
+
+nav .first-nav .first-li a {
+    border: none;
+}
+
+.main-nav button {
+    max-height: 30px;
+}
+.second-nav {
+    height: 50px;
+    background-color: #f72210;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.second-nav {
+    display: none;
+}
+
+.second-nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.second-nav .logo,
+.second-nav .right-buttons{
+    margin: 0 ;
+    padding: 0;
+}
+
+.issue {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+
+.main-nav .second-nav ul {
+    margin: 0;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+.second-nav .sign-in,
+.second-nav .subscribe
+{
+    font-size: 16px;
+}
+
+.second-nav .sign-in {
+    width: 90px;
+}
+.right-buttons {
+    display: flex;
+    align-items: center;
+}
+.second-nav ul .fa-bars {
+    margin: 0;
+    line-height: 0;
+    font-size: 20px;
+    color: white;
+    width: 30px;
+}
+
+.second-nav .right-buttons::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.second-nav .logo img {
+    width: 185px;
+}
+
+
+nav .second-nav ul li {
+    padding: 0;
+    line-height: 1.5;
+    margin: 10px;
+}
+
+nav .second-nav ul li a {
+    border: none;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 90%;
+    margin: 0;
+}
+
+.main-nav ul li {
+    list-style-type: none;
+    width: 17%;
+    text-align: center;
+    line-height: 38px;
+    padding: 10px 0;
+
+}
+
+.main-nav ul li a {
+color: black;
+font-size: 18px;
+font-weight: bold;
+display: block;
+border-left: 1px solid gray;
+height: 22px;
+line-height: 23px;
+
+}
+
+
+.story .top-story-title a {
+    font-size: 1.5rem;
+}
+.main-nav ul li a:hover {
+    color: #f72210;
+    text-decoration: none;
+}
+
+.header-details {
+    text-align: center;
+    color: white;
+
+}
+
+h2 {
+    line-height: 26px;
+    padding-top: 10px;
+}
+
+.search {
+    font-size: 18px;
+}
+
+.logo img {
+    width: 75%;
+}
+
+.date {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-in {
+    border: none;
+    background-color: #f72210;
+    color: white;
+}
+
+.subscribe {
+    border: none;
+    background-color: white;
+    color: #f72210;
+}
+
+.sign-in,
+.subscribe {
+    font-size: 18px;
+    font-weight: bold;
+}
+.search {
+    text-align: center;
+    width: 10%;
+    line-height: 36px;
+}
+
+/*END NAVIGATION BAR STYLING*/
